@@ -100,13 +100,13 @@ body{
     position: relative;
 }
 
-/* .skills-banner{
-    background: whitesmoke no-repeat;
-    background-size: cover;
+.skills-banner{
+    background: url(./assets/footer_lodyas.png) repeat;
+    background-size: auto;
     width: 100%;
     height: 100vh;
     position: relative;
-} */
+} 
 
 .site-banner .banner-area .author{
     margin: 0;
@@ -138,18 +138,19 @@ body{
 
 h2{
     text-align: center;
-    color: black;
+    color: whitesmoke;
     font-size: 60px;
     
 }
 
 p{
-    color: black;
+    color: whitesmoke;
 }
 
 .header-text{
-    color: black;
+    color: whitesmoke;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .projects{
@@ -161,21 +162,29 @@ p{
 
 .aboutmeproject{
     text-align: center;
+    display: grid;
+    color: whitesmoke
 }
 
 .madlibsproject{
     text-align: center;
+    display: grid;
+    color: whitesmoke
 }
 
 .headingfont{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-transform: uppercase;
+    padding-top: 20px;
 }
 
 .aboutpage{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     color: white;
+    padding-top: 600px;
 
 }
 
@@ -187,3 +196,219 @@ p{
 } */
 
 /* #site-main */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+body {
+  background: #f2f2f2;
+}
+
+.container1  {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 700px;
+  background: #172649;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.container2  {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 700px;
+  background: #862633;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.container3  {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 700px;
+  background: #F77F00;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: white;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+.educationh1 {
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  padding-left: 90px;
+  color: white
+}
+
+.educationh11 {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 90px;
+}
+
+.educationh2 {
+  font-weight: 900;
+  font-size: 33px;
+  text-align: center;
+  padding-left: 45px;
+  color: white
+}
+
+.educationh22 {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 45px;
+}
+
+.educationh3 {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 15px;
+  color: white
+}
+
+.educationh33 {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 15px;
+}
+
+.flap1 {
+  width: 100%;
+  height: 100%;
+}
+
+.flap1::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  left: 0;
+  background: url(./assets/karow-1-column-1.jpg);
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap1::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url(./assets/karow-1-column-2.jpg);
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap2 {
+  width: 100%;
+  height: 100%;
+}
+
+.flap2::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  left: 0;
+  background: url(./assets/ucrow-1-column-1.png);
+  background-color: white;
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap2::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url(./assets/ucrow-1-column-2.png);
+  background-color: white;
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap3 {
+  width: 100%;
+  height: 100%;
+}
+
+.flap3::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  left: 0;
+  background: url(./assets/utrow-1-column-1copy.jpg);
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap3::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url(./assets/utrow-1-column-2copy.jpg);
+  background-size: 350px 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container1:hover .flap1::after {
+  transform: translatex(350px);
+}
+
+.container1:hover .flap1::before{
+  transform: translatex(-350px);
+}
+
+.container2:hover .flap2::after {
+  transform: translatex(350px);
+}
+
+.container2:hover .flap2::before{
+  transform: translatex(-350px);
+}
+
+.container3:hover .flap3::after {
+  transform: translatex(350px);
+}
+
+.container3:hover .flap3::before{
+  transform: translatex(-350px);
+}
