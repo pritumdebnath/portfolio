@@ -197,6 +197,8 @@ p{
 
 /* #site-main */
 
+/* Cards Section Begin */
+
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
 
 body {
@@ -412,3 +414,5 @@ body {
 .container3:hover .flap3::before{
   transform: translatex(-350px);
 }
+
+/* Cards Section End */
