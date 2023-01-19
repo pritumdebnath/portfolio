@@ -47,7 +47,7 @@
             <div class="col-md-9 offset-md-3 px-0">
 
          
-                <section class="site-banner" id="home">
+                <section class="site-banner bottom-border" id="home">
                     <div class="banner-area">
                         <div class="author text-center">
                             <div class="author-img"></div>
@@ -83,8 +83,8 @@
             
         </section> -->
       
-        <section class="col-md-9 offset-md-3 px-0 skills-banner">
-        <div class="w-100" style="height: 781px;">
+        <section class="col-md-9 offset-md-3 px-0 skills-banner bottom-border">
+        <div class="w-100">
             <h2 class="mb-5 headingfont" id="skills">Skills</h2>
             <div class="col-12" style="display: flex; flex-direction: column; align-items: center; height: 500px; justify-content: center;">
             <div class="header-text"> Programming Languages &amp; Software Tools</div>
@@ -115,12 +115,13 @@
             </div>
     </section>
 
-    <section class="col-md-9 offset-md-3 px-0 skills-banner">
-        <div class="w-100" style="height: 781px;">
-            <h2 class="mb-5 headingfont" id="projects">Projects</h2>
-            <div class="col-12" style="display: flex; flex-direction: column; align-items: center; height: 150px; justify-content: center;"></div>
-            <div class="header-text">A Showcase of Projects to Reflect Growth in Coding Skill</div>
-                <div class="projects container-fluid">
+    <section class="col-md-9 offset-md-3 px-0 skills-banner bottom-border">
+        <h2 class="mb-5 headingfont" id="projects">Projects</h2>
+        <div class="w-100" id="projects-container">
+            
+            <!-- <div class="col-12" style="display: flex; flex-direction: column; align-items: center; height: 150px; justify-content: center;"></div> -->
+            <div class="header-text mt-4">A Showcase of Projects to Reflect Growth in Coding Skill</div>
+                <div class="projects container-fluid" >
                     <div class="row">
                         <div class="aboutmeproject col-md-6">
                             <h5><a href="https://pritumdebnath.github.io/newAboutMe/">ABOUT ME PAGE</h5>
@@ -142,7 +143,7 @@
 
     <!--Cards Section Begin-->
 
-    <section class="col-md-9 offset-md-3 px-0 skills-banner">
+    <section class="col-md-9 offset-md-3 px-0 skills-banner bottom-border">
         <div class="w-100">
             <h2 class="mb-5 headingfont" id="education">Education</h2>
             <div class="container-fluid">
@@ -166,7 +167,7 @@
                             <h1 class="educationh3">Bachelor of Science - Biochemistry & Cellular and Molecular Biology</h1>
                             <h3 class="educationh33">January 2023 - March 2023</h3>
                         </div>
-                        <div class="flap3"></div>
+                        <div class="flap3 img-fluid"></div>
                     </div>
                 </div>
             </div>  
@@ -176,10 +177,76 @@
 
     <!--Cards Section End-->
 
-    <section class="col-md-9 offset-md-3 px-0 skills-banner">
-        <div class="w-100" style="height: 781px;">
+    <section class="col-md-9 offset-md-3 px-0 skills-banner bottom-border">
+        <div class="w-100 ">
             <h2 class="mb-5 headingfont" id="experience">Experience</h2>
-        
+            <div class="body-experience">
+                <div class="container">
+                    <div class="card">
+                    <div class="card-header py-0 px-0">
+                        <img src="./assets/ucpalogo.jpg">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-teal">Oct 2020 - Sep 2022</span>
+                        <h4>
+                            Physician Assistant Student
+                        </h4>
+                        <p class="pexperience">
+                            Collaboration · Interpersonal Skills · Communication · Documentation · Healthcare · Medical Equipment · Medicine
+                        </p>
+                        <!-- <div class="user">
+                        <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
+                        <div class="user-info">
+                            <h5>July Dec</h5>
+                            <small>2h ago</small>
+                        </div>
+                        </div> -->
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header p-0">
+                        <img src="./assets/chlogo.png">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-purple">Jan 2020 - Sep 2020</span>
+                        <h4>
+                            Patient Care Assistant
+                        </h4>
+                        <p class="pexperience">
+                            Experience includes but not limited to taking vital signs, assisting with daily activities, observing patients and charting changes in their health or behavior, escorting patients and obtaining lab specimens.
+                        </p>
+                        <!-- <div class="user">
+                        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo" alt="user" />
+                        <div class="user-info">
+                            <h5>Eyup Ucmaz</h5>
+                            <small>Yesterday</small>
+                        </div>
+                        </div> -->
+                    </div>
+                    </div>
+                    <div class="card">
+                    <div class="card-header p-0">
+                        <img src="assets/utlogo.png">
+                    </div>
+                    <div class="card-body">
+                        <span class="tag tag-pink">Jan 2018 - May 2019</span>
+                        <h4>
+                            Research Assistant
+                        </h4>
+                        <p class="pexperience">
+                            The research work utilized computational methods and analyses to learn more about macromolecules dynamics and protein allostery or correlated motion.
+                        </p>
+                        <!-- <div class="user">
+                        <img src="https://studyinbaltics.ee/wp-content/uploads/2020/03/3799Ffxy.jpg" alt="user" />
+                        <div class="user-info">
+                            <h5>Carrie Brewer</h5>
+                            <small>1w ago</small>
+                        </div>
+                        </div> -->
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </section>
@@ -199,3 +266,47 @@
 <script src="./index.js"></script>
 </body>
 </html>
+
+<!-- <div>
+                <div class="container">
+                    <div class="card">
+                        
+                        <div class="face face1"></div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>Physician Assistant Student</h3>
+                                <p>
+                                    Collaboration · Interpersonal Skills · Communication · Documentation · Healthcare · Medical Equipment · Medicine
+                                </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="card">
+                        
+                        <div class="face5 face6"></div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>Patient Care Assistant</h3>
+                                <p>
+                                    Experience includes but not limited to taking vital signs, assisting with daily activities, observing patients and charting changes in their health or behavior, escorting patients and obtaining lab specimens.
+                                </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="card">
+                        
+                        <div class="face7 face8"></div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3>Research Assistant</h3>
+                                <p>
+                                    The research work utilized computational methods and analyses to learn more about
+                                    macromolecules dynamics and protein allostery or correlated motion.
+                                </p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div> -->

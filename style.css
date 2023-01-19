@@ -197,7 +197,7 @@ p{
 
 /* #site-main */
 
-/* Cards Section Begin */
+/* Education Cards Section Begin */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
 
@@ -314,7 +314,7 @@ body {
   width: 50%;
   left: 0;
   background: url(./assets/karow-1-column-1.jpg);
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -326,7 +326,7 @@ body {
   width: 50%;
   right: 0;
   background: url(./assets/karow-1-column-2.jpg);
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -344,7 +344,7 @@ body {
   left: 0;
   background: url(./assets/ucrow-1-column-1.png);
   background-color: white;
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -357,7 +357,7 @@ body {
   right: 0;
   background: url(./assets/ucrow-1-column-2.png);
   background-color: white;
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -374,7 +374,7 @@ body {
   width: 50%;
   left: 0;
   background: url(./assets/utrow-1-column-1copy.jpg);
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -386,7 +386,7 @@ body {
   width: 50%;
   right: 0;
   background: url(./assets/utrow-1-column-2copy.jpg);
-  background-size: 350px 100px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   transition: 1s;
 }
@@ -415,4 +415,233 @@ body {
   transform: translatex(-350px);
 }
 
-/* Cards Section End */
+/* Education Cards Section End */
+
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-border {
+  box-shadow: 0px 0px 5px 5px #000000;
+}
+
+/* Experience Cards Begin */
+
+/* .body-experience {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  font-family: sans-serif;
+  background-color: #f1f1f1; 
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ffffff00;
+  border: 0;
+}
+
+.container .card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0px);
+}
+
+.face.face1 {
+  background-image: url(./assets/ucpalogo.jpg) !important;
+  background-size: 300px 200px !important;
+}
+
+.face5.face6 {
+  background-image: url(./assets/chlogo.png) !important;
+  background-size: 300px 200px !important;
+}
+
+.face7.face8 {
+  background-image: url(./assets/utlogo.png) !important;
+  background-size: 300px 200px !important;
+}
+
+.container .card .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content {
+  max-width: 100px;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+} 
+
+.container {
+  text-decoration: none;
+  color: #414141;
+} */
+
+/* Experience Cards End */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+.body-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: 0;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+.container {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: navy;
+}
+.tag-purple {
+  background-color: lightblue;
+}
+.tag-pink {
+  background-color: orange;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.pexperience {
+  color: #000000;
+}
