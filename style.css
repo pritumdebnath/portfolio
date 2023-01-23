@@ -102,11 +102,18 @@ body{
 
 .skills-banner{
     background: url(./assets/footer_lodyas.png) repeat;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     height: 100vh;
     position: relative;
-} 
+}
+#experience-cards{
+    /* background: url(./assets/footer_lodyas.png) repeat;
+    background-size: cover;
+    width: 100%; */
+    height: auto;
+    /* position: relative; */
+}
 
 .site-banner .banner-area .author{
     margin: 0;
@@ -185,15 +192,18 @@ p{
     font-weight: 600;
     color: white;
     padding-top: 600px;
-
 }
 
-/* .align-content-center{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    align-items: center;
-} */
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-border {
+  box-shadow: 0px 0px 5px 5px #000000;
+}
 
 /* #site-main */
 
@@ -262,7 +272,7 @@ body {
   font-size: 35px;
   text-align: center;
   padding-left: 90px;
-  color: white
+  color: white;
 }
 
 .educationh11 {
@@ -418,146 +428,8 @@ body {
 /* Education Cards Section End */
 
 
-#projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.bottom-border {
-  box-shadow: 0px 0px 5px 5px #000000;
-}
 
 /* Experience Cards Begin */
-
-/* .body-experience {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;   
-  font-family: sans-serif;
-  background-color: #f1f1f1; 
-}
-
-.container {
-  width: 1000px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
-  background-color: #ffffff00;
-  border: 0;
-}
-
-.container .card .face {
-  width: 300px;
-  height: 200px;
-  transition: 0.5s;
-}
-
-.container .card .face.face1 {
-  position: relative;
-  background: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(100px);
-}
-
-.container .card:hover .face.face1{
-  background: #ff0057;
-  transform: translateY(0px);
-}
-
-.face.face1 {
-  background-image: url(./assets/ucpalogo.jpg) !important;
-  background-size: 300px 200px !important;
-}
-
-.face5.face6 {
-  background-image: url(./assets/chlogo.png) !important;
-  background-size: 300px 200px !important;
-}
-
-.face7.face8 {
-  background-image: url(./assets/utlogo.png) !important;
-  background-size: 300px 200px !important;
-}
-
-.container .card .face.face1 .content {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-.container .card:hover .face.face1 .content {
-  opacity: 1;
-}
-
-.container .card .face.face1 .content {
-  max-width: 100px;
-}
-
-.container .card .face.face2 {
-  position: relative;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
-  transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2{
-  transform: translateY(0);
-}
-
-.container .card .face.face2 {
-  position: relative;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.8);
-  transform: translateY(-100px);
-}
-
-.container .card:hover .face.face2{
-  transform: translateY(0);
-}
-
-.container .card .face.face2 .content p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: #414141;
-}
-
-.container .card .face.face2 .content h3 {
-  margin: 0 0 10px 0;
-  padding: 0;
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-  color: #414141;
-} 
-
-.container {
-  text-decoration: none;
-  color: #414141;
-} */
-
-/* Experience Cards End */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
@@ -645,3 +517,6 @@ body {
 .pexperience {
   color: #000000;
 }
+
+/* Experience Cards End */
+
