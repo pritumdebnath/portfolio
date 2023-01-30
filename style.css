@@ -224,7 +224,7 @@ body {
   left: 50%;
   top: 30%;
   transform: translate(-50%, -50%);
-  height: 100px;
+  height: 140px;
   width: 700px;
   background: #172649;
   overflow: hidden;
@@ -238,7 +238,7 @@ body {
   left: 50%;
   top: 55%;
   transform: translate(-50%, -50%);
-  height: 100px;
+  height: 140px;
   width: 700px;
   background: #862633;
   overflow: hidden;
@@ -252,7 +252,7 @@ body {
   left: 50%;
   top: 80%;
   transform: translate(-50%, -50%);
-  height: 100px;
+  height: 140px;
   width: 700px;
   background: #F77F00;
   overflow: hidden;
@@ -274,46 +274,38 @@ body {
 .educationh1 {
   font-weight: 900;
   font-size: 35px;
-  text-align: center;
-  padding-left: 90px;
   color: white;
 }
 
 .educationh11 {
   font-weight: 300;
   font-size: 20px;
-  text-align: center;
-  padding-left: 90px;
 }
 
 .educationh2 {
   font-weight: 900;
   font-size: 33px;
-  text-align: center;
-  padding-left: 45px;
+
   color: white
 }
 
 .educationh22 {
   font-weight: 300;
   font-size: 20px;
-  text-align: center;
-  padding-left: 45px;
+
 }
 
 .educationh3 {
   font-weight: 900;
   font-size: 20px;
-  text-align: center;
-  padding-left: 15px;
+
+
   color: white
 }
 
 .educationh33 {
   font-weight: 300;
   font-size: 18px;
-  text-align: center;
-  padding-left: 15px;
 }
 
 .flap1 {
@@ -557,7 +549,6 @@ html {
   position: relative;
   top: 370px;
   left: 50%;
-  width: ;
   text-align: center;
   transform: translatex(-50%);
   z-index: 1000;
@@ -608,21 +599,22 @@ html {
 }
 
 .slide {
-  position: relative;
+  position: absolute;
   top: 100px;
   left: 0;
   display: flex;
   justify-content: space-between;
   padding: 20px;
   height: 100%;
+  width: 100%;
   opacity: 0;
   transform: translatex(-100%);
   transition: transform 250ms linear;
 }
 
-.slide-content {
-  width: 800px;
-}
+/* .slide-content {
+  width:;
+} */
 
 .slide-title {
   margin-bottom: 20px;
@@ -641,10 +633,10 @@ html {
   text-decoration: none;
   background-color: #ff4081;
 }
-
+/* 
 .slide-image img {
   max-width: 100%;
-}
+} */
 
 /* Slide animations */
 #btn-1:checked ~ .slides .slide:nth-child(1) {
@@ -697,3 +689,44 @@ html {
 }
 
 /* Interests Carousel Begin */
+
+
+
+
+
+
+
+
+
+
+/* media query for education */
+@media only screen and (max-width: 500px) {
+  .educationh1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .educationh11 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .educationh2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .educationh22 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .educationh3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .educationh33 {
+    font-size: 15px;
+  }
+}
