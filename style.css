@@ -119,6 +119,14 @@ body{
     /* position: relative; */
 }
 
+#project-section {
+  background: url(./assets/footer_lodyas.png) repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
 .site-banner .banner-area .author{
     margin: 0;
     position: absolute;
@@ -166,7 +174,7 @@ p{
 
 .projects{
     display: flex;
-    height: 300px;
+    height: auto;
     gap: 100px;
     justify-content: center;
 }
